@@ -11,7 +11,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      business: [],
+      businesses: [],
     };
 
     this.searchYelp =this.searchYelp.bind(this);
